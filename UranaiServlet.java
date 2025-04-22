@@ -44,6 +44,7 @@ public class UranaiServlet extends HttpServlet {
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<p>" + today + "の運勢は「"+ luck + "」です</p>");
+		out.println("<p>" + today + "今日のラッキーアイテムは「プリン」です！"</p>);
 		out.println("</body>");
 		out.println("</html>");
 	}
